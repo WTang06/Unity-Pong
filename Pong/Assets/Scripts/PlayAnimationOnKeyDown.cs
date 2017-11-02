@@ -6,13 +6,13 @@ public class PlayAnimationOnKeyDown : MonoBehaviour
 {
     public KeyCode Key;
     public string TriggerName;
-    public Animator Animator;
+    public Animator TargetAnimator;
 
     void Update()
     {
         if (Input.GetKeyDown(Key))
         {
-            
+            TargetAnimator.SetTrigger(TriggerName);
         }
     }
 }

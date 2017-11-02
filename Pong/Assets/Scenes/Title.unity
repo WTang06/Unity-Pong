@@ -411,6 +411,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55f31860b7065584296d39c18200ae87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: 0
-  TriggerName: 
-  Animator: {fileID: 0}
+  Key: 13
+  TriggerName: Out
+  TargetAnimator: {fileID: 832650704}
