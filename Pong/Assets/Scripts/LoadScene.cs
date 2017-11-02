@@ -5,18 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class LoadScene : MonoBehaviour 
 {
-    public string StartingScene = "";
-    public double Delay = 0;
+    public string SceneToLoad = "";
+    public float Delay = 0;
 
-    private double elapsedTime = 0;
-
-    void Update()
+    void Start()
     {
-        elapsedTime += Time.deltaTime;
+        StartCoroutine(delayThenLoadScene());
+    }
 
-        if (elapsedTime > Delay)
-        {
-            SceneManager.LoadScene(StartingScene); 
-        }
+    IEnumerator delayThenLoadScene()
+    {
+        yield return new WaitForSeconds(Delay);
+        SceneManager.LoadScene(SceneToLoad);
     }
 }
