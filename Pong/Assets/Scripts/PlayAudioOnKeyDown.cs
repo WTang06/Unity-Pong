@@ -2,21 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayAnimationOnKeyDown : MonoBehaviour 
+public class PlayAudioOnKeyDown : MonoBehaviour 
 {
     public KeyCode Key;
-    public string TriggerName;
-    public Animator TargetAnimator;
+    public AudioSource TargetAudioSource;
     public float InDelay = 1f;
+    public bool OneShot = true;
 
     private bool acceptingInput = false;
 
     void Start()
     {
-        StartCoroutine(waitThenAcceptInput());
+        StartCoroutine(waitThenAcceptingInput());
     }
 
-    IEnumerator waitThenAcceptInput()
+    IEnumerator waitThenAcceptingInput()
     {
         yield return new WaitForSeconds(InDelay);
         acceptingInput = true;
@@ -26,7 +26,11 @@ public class PlayAnimationOnKeyDown : MonoBehaviour
     {
         if (acceptingInput && Input.GetKeyDown(Key))
         {
-            TargetAnimator.SetTrigger(TriggerName);
+            TargetAudioSource.Play();
+            if (OneShot)
+            {
+                acceptingInput = false;
+            }
         }
     }
 }

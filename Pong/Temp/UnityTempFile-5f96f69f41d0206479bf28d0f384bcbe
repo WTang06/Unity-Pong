@@ -101,6 +101,7 @@ Assets/Scripts/DataManager.cs
 Assets/Scripts/DontDestroy.cs
 Assets/Scripts/LoadScene.cs
 Assets/Scripts/PlayAnimationOnKeyDown.cs
+Assets/Scripts/PlayAudioOnKeyDown.cs
 -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
