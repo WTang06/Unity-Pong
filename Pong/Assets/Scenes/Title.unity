@@ -301,6 +301,7 @@ GameObject:
   - component: {fileID: 832650711}
   - component: {fileID: 832650709}
   - component: {fileID: 832650710}
+  - component: {fileID: 832650712}
   m_Layer: 5
   m_Name: TitleUI
   m_TagString: Untagged
@@ -416,6 +417,7 @@ MonoBehaviour:
   Key: 13
   TriggerName: Out
   TargetAnimator: {fileID: 832650704}
+  InDelay: 1
 --- !u!114 &832650710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -429,6 +431,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Key: 13
   TargetAudioSource: {fileID: 832650711}
+  InDelay: 1
+  OneShot: 1
 --- !u!82 &832650711
 AudioSource:
   m_ObjectHideFlags: 0
@@ -509,3 +513,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &832650712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 832650703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9914754b5ffaf3840af3019d4388c2e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneToLoad: Round
+  PreKeyDelay: 1
+  PostKeyDelay: 1
+  Key: 13

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 77c9b400d78d51b4b81da5131d584869
-timeCreated: 1510084504
+timeCreated: 1510256764
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -80,10 +80,10 @@ TextureImporter:
       name: Paddle
       rect:
         serializedVersion: 2
-        x: 84
-        y: 20
-        width: 34
-        height: 193
+        x: 15
+        y: 15
+        width: 19
+        height: 123
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -94,12 +94,12 @@ TextureImporter:
       name: Ball
       rect:
         serializedVersion: 2
-        x: 338
-        y: 253
-        width: 106
-        height: 129
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 99
+        y: 103
+        width: 51
+        height: 44
+      alignment: 9
+      pivot: {x: 0.46189627, y: 0.5403456}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

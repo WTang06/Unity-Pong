@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: CenterLine
+    uniqueID: 1023278139
+    locked: 0
+  - name: Paddle
+    uniqueID: 1190694285
+    locked: 0
+  - name: Ball
+    uniqueID: 3192035189
+    locked: 0
