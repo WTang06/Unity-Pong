@@ -9,24 +9,36 @@ public class PlayAnimationOnKeyDown : MonoBehaviour
     public Animator TargetAnimator;
     public float InDelay = 1f;
 
-    private bool acceptingInput = false;
-
-    void Start()
-    {
-        StartCoroutine(waitThenAcceptInput());
-    }
-
-    IEnumerator waitThenAcceptInput()
+//    private bool acceptingInput = false;
+//
+    IEnumerator Start()
     {
         yield return new WaitForSeconds(InDelay);
-        acceptingInput = true;
+
+        while (!Input.GetKeyDown(Key))
+        {
+            yield return null;
+        }
+
+        TargetAnimator.SetTrigger(TriggerName);
     }
 
-    void Update()
-    {
-        if (acceptingInput && Input.GetKeyDown(Key))
-        {
-            TargetAnimator.SetTrigger(TriggerName);
-        }
-    }
+//    void Start()
+//    {
+//        StartCoroutine(waitThenAcceptInput());
+//    }
+//
+//    IEnumerator waitThenAcceptInput()
+//    {
+//        yield return new WaitForSeconds(InDelay);
+//        acceptingInput = true;
+//    }
+//
+//    void Update()
+//    {
+//        if (acceptingInput && Input.GetKeyDown(Key))
+//        {
+//            TargetAnimator.SetTrigger(TriggerName);
+//        }
+//    }
 }

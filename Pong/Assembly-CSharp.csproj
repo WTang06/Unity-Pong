@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\DontDestroy.cs" />
      <Compile Include="Assets\Scripts\LoadScene.cs" />
      <Compile Include="Assets\Scripts\LoadSceneOnKeyDown.cs" />
+     <Compile Include="Assets\Scripts\Move.cs" />
      <Compile Include="Assets\Scripts\PlayAnimationOnKeyDown.cs" />
      <Compile Include="Assets\Scripts\PlayAudioOnKeyDown.cs" />
  <Reference Include="UnityEngine.UI">

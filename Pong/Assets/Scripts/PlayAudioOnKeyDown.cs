@@ -9,28 +9,48 @@ public class PlayAudioOnKeyDown : MonoBehaviour
     public float InDelay = 1f;
     public bool OneShot = true;
 
-    private bool acceptingInput = false;
-
-    void Start()
-    {
-        StartCoroutine(waitThenAcceptingInput());
-    }
-
-    IEnumerator waitThenAcceptingInput()
+    IEnumerator Start()
     {
         yield return new WaitForSeconds(InDelay);
-        acceptingInput = true;
-    }
 
-    void Update()
-    {
-        if (acceptingInput && Input.GetKeyDown(Key))
+        while (!Input.GetKeyDown(Key))
         {
-            TargetAudioSource.Play();
-            if (OneShot)
-            {
-                acceptingInput = false;
-            }
+            yield return null;
+        }
+
+        TargetAudioSource.Play();
+
+        if (OneShot)
+        {
+            enabled = false;
         }
     }
+
 }
+
+
+//    private bool acceptingInput = false;
+//
+//    void Start()
+//    {
+//        StartCoroutine(waitThenAcceptingInput());
+//    }
+//
+//    IEnumerator waitThenAcceptingInput()
+//    {
+//        yield return new WaitForSeconds(InDelay);
+//        acceptingInput = true;
+//    }
+//
+//    void Update()
+//    {
+//        if (acceptingInput && Input.GetKeyDown(Key))
+//        {
+//            TargetAudioSource.Play();
+//            if (OneShot)
+//            {
+//                acceptingInput = false;
+//            }
+//        }
+//    }
+//}
