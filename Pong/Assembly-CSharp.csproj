@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\DataManager.cs" />
      <Compile Include="Assets\Scripts\DontDestroy.cs" />
+     <Compile Include="Assets\Scripts\Launch.cs" />
      <Compile Include="Assets\Scripts\LoadScene.cs" />
      <Compile Include="Assets\Scripts\LoadSceneOnKeyDown.cs" />
      <Compile Include="Assets\Scripts\Move.cs" />

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 77c9b400d78d51b4b81da5131d584869
-timeCreated: 1510256764
+timeCreated: 1511293965
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -94,10 +94,10 @@ TextureImporter:
       name: Ball
       rect:
         serializedVersion: 2
-        x: 99
-        y: 103
-        width: 51
-        height: 44
+        x: 114
+        y: 114
+        width: 23
+        height: 21
       alignment: 9
       pivot: {x: 0.46189627, y: 0.5403456}
       border: {x: 0, y: 0, z: 0, w: 0}
