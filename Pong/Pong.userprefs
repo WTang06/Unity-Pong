@@ -1,13 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Move.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayAudioOnCollision.cs">
     <Files>
       <File FileName="Assets\Scripts\DataManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\LoadScene.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayAudioOnKeyDown.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\LoadSceneOnKeyDown.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayAnimationOnKeyDown.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Move.cs" Line="24" Column="2" />
+      <File FileName="Assets\Scripts\Move.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Launch.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayAudioOnCollision.cs" Line="13" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
