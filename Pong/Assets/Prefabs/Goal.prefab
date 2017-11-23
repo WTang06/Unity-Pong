@@ -9,99 +9,77 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1074326405020258}
+  m_RootGameObject: {fileID: 1430206804558486}
   m_IsPrefabParent: 1
---- !u!1 &1074326405020258
+--- !u!1 &1430206804558486
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4745277195647992}
-  - component: {fileID: 212348602086347742}
-  - component: {fileID: 50024847726636304}
-  - component: {fileID: 61176209882542300}
-  - component: {fileID: 114905467062946886}
-  - component: {fileID: 82081972287595012}
-  - component: {fileID: 114590811910567048}
+  - component: {fileID: 4070720375487920}
+  - component: {fileID: 61593727248512636}
+  - component: {fileID: 82806444010540450}
+  - component: {fileID: 114484262112868942}
+  - component: {fileID: 114995555258549076}
   m_Layer: 0
-  m_Name: Paddle
+  m_Name: Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4745277195647992
+--- !u!4 &4070720375487920
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1074326405020258}
+  m_GameObject: {fileID: 1430206804558486}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.92, y: 0, z: 0}
-  m_LocalScale: {x: 0.41030312, y: 0.40333775, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &50024847726636304
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1074326405020258}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 10
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 5
---- !u!61 &61176209882542300
+--- !u!61 &61593727248512636
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1074326405020258}
+  m_GameObject: {fileID: 1430206804558486}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -2.51, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.19, y: 1.23}
-    newSize: {x: 0.34, y: 1.28}
-    adaptiveTilingThreshold: 0.5
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.19, y: 1.23}
+  m_Size: {x: 1, y: 3.32}
   m_EdgeRadius: 0
---- !u!82 &82081972287595012
+--- !u!82 &82806444010540450
 AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1074326405020258}
+  m_GameObject: {fileID: 1430206804558486}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 37254526ad9ceee44a3224bbaa1a43f3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 27fc38b46dd0dc344923d3af152325da, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.075
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -111,7 +89,7 @@ AudioSource:
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
-  Pan2D: 0
+  Pan2D: -0.5
   rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
@@ -170,73 +148,30 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114590811910567048
+--- !u!114 &114484262112868942
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1074326405020258}
+  m_GameObject: {fileID: 1430206804558486}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec7e58711a597154da65354fb74972e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ColliderTag: Ball
-  TargetAudioSource: {fileID: 82081972287595012}
---- !u!114 &114905467062946886
+  TargetAudioSource: {fileID: 82806444010540450}
+--- !u!114 &114995555258549076
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1074326405020258}
+  m_GameObject: {fileID: 1430206804558486}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a3d1d89dd0125843af99ef286da5f25, type: 3}
+  m_Script: {fileID: 11500000, guid: 19f7caa1152f7c543866382ff0f735bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UpKey: 119
-  DownKey: 115
-  RigidBody: {fileID: 50024847726636304}
-  Force: 50
---- !u!212 &212348602086347742
-SpriteRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1074326405020258}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1190694285
-  m_SortingLayer: 2
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 77c9b400d78d51b4b81da5131d584869, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.34, y: 1.28}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
+  SceneToLoad: Round
+  PostCollisionDelay: 1
+  ColliderTag: Ball
