@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\DataManager.cs" />
      <Compile Include="Assets\Scripts\DontDestroy.cs" />
+     <Compile Include="Assets\Scripts\IncrementScoreOnCollision.cs" />
      <Compile Include="Assets\Scripts\Launch.cs" />
      <Compile Include="Assets\Scripts\LoadScene.cs" />
      <Compile Include="Assets\Scripts\LoadSceneOnCollision.cs" />
@@ -61,6 +62,7 @@
      <Compile Include="Assets\Scripts\PlayAnimationOnKeyDown.cs" />
      <Compile Include="Assets\Scripts\PlayAudioOnCollision.cs" />
      <Compile Include="Assets\Scripts\PlayAudioOnKeyDown.cs" />
+     <Compile Include="Assets\Scripts\SyncRoundUI.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

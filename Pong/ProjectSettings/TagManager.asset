@@ -7,6 +7,8 @@ TagManager:
   - Ball
   - P1Paddle
   - P2Paddle
+  - Edge
+  - DataManager
   layers:
   - Default
   - TransparentFX
