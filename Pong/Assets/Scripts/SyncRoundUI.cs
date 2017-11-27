@@ -20,15 +20,16 @@ public class SyncRoundUI : MonoBehaviour
     {
         if (PlayerScore == Player.P1)
         {
-            TextToUpdate.text = DataManager.P1Score;
+            TextToUpdate.text = DataManager.P1Score.ToString();
         }
         else if (PlayerScore == Player.P2)
         {
-            TextToUpdate.text = DataManager.P2Score;
+            TextToUpdate.text = DataManager.P2Score.ToString();
         }
         else
         {
             throw new UnityException("Invalid Player!");
         }
+            
     }
 }

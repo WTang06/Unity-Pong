@@ -1,6 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SyncRoundUI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DisplayMessage.cs">
     <Files>
       <File FileName="Assets\Scripts\DataManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\LoadScene.cs" Line="1" Column="1" />
@@ -11,8 +11,9 @@
       <File FileName="Assets\Scripts\Launch.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayAudioOnCollision.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\LoadSceneOnCollision.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\IncrementScoreOnCollision.cs" Line="35" Column="14" />
-      <File FileName="Assets\Scripts\SyncRoundUI.cs" Line="6" Column="42" />
+      <File FileName="Assets\Scripts\IncrementScoreOnCollision.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SyncRoundUI.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DisplayMessage.cs" Line="19" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

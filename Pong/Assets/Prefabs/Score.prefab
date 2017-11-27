@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 222939291539116124}
   - component: {fileID: 114766636692738426}
   - component: {fileID: 114945679025121168}
-  - component: {fileID: 114475816403030122}
+  - component: {fileID: 114765415314266342}
   m_Layer: 5
   m_Name: Score
   m_TagString: Untagged
@@ -30,7 +30,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &114475816403030122
+--- !u!114 &114765415314266342
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -38,9 +38,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1118801104068640}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f422b7d6610c3124fb9247e2e281318c, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e7ca25544adb6f4da60b47db1efbcd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DataManager: {fileID: 0}
+  TextToUpdate: {fileID: 114766636692738426}
+  PlayerScore: 0
 --- !u!114 &114766636692738426
 MonoBehaviour:
   m_ObjectHideFlags: 1

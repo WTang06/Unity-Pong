@@ -51,7 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CheckForWinner.cs" />
      <Compile Include="Assets\Scripts\DataManager.cs" />
+     <Compile Include="Assets\Scripts\DisplayMessage.cs" />
      <Compile Include="Assets\Scripts\DontDestroy.cs" />
      <Compile Include="Assets\Scripts\IncrementScoreOnCollision.cs" />
      <Compile Include="Assets\Scripts\Launch.cs" />
