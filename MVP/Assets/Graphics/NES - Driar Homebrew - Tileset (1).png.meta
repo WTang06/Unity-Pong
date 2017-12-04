@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 778de11ae19fe534ebd1787eb000d95a
-timeCreated: 1511984907
+timeCreated: 1512156799
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ TextureImporter:
     21300002: Box
     21300004: Floor - Platform
     21300006: Dirt - Top
-    21300008: Dirt - Bottom
+    21300008: Dirt - bottom
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -126,9 +126,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 145
-        y: 80
+        y: 81
         width: 14
-        height: 23
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,13 +136,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Dirt - Bottom
+      name: Dirt - bottom
       rect:
         serializedVersion: 2
         x: 145
         y: 103
         width: 14
-        height: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dirt - Filler
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 81
+        width: 14
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
