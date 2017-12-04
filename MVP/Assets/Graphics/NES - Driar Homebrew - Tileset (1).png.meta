@@ -9,6 +9,7 @@ TextureImporter:
     21300004: Floor - Platform
     21300006: Dirt - Top
     21300008: Dirt - bottom
+    21300010: Dirt - Filler
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
