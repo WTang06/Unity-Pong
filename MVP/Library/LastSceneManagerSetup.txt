@@ -1,4 +1,10 @@
 sceneSetups:
-- path: Assets/Scenes/Play.unity
+- path: Assets/Scenes/Initialization.unity
+  isLoaded: 1
+  isActive: 0
+- path: Assets/Scenes/StudioLogo.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/Scenes/Play.unity
+  isLoaded: 1
+  isActive: 0
