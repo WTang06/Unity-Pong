@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -46,4 +47,7 @@ TagManager:
     locked: 0
   - name: Floor
     uniqueID: 1810164141
+    locked: 0
+  - name: Character
+    uniqueID: 3867793223
     locked: 0
