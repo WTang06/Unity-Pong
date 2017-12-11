@@ -9,5 +9,5 @@ sceneSetups:
   isLoaded: 1
   isActive: 1
 - path: Assets/Scenes/Play.unity
-  isLoaded: 0
+  isLoaded: 1
   isActive: 0
