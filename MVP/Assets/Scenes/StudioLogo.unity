@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneToLoad: Title
-  Delay: 8
+  Delay: 4
 --- !u!4 &1119333697
 Transform:
   m_ObjectHideFlags: 0
