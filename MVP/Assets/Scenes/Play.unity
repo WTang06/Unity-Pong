@@ -11193,6 +11193,8 @@ GameObject:
   - component: {fileID: 1413386012}
   - component: {fileID: 1413386011}
   - component: {fileID: 1413386014}
+  - component: {fileID: 1413386015}
+  - component: {fileID: 1413386016}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -11321,7 +11323,33 @@ MonoBehaviour:
   LeftKey: 97
   RightKey: 100
   Force: 30
-  thisRigidBody: {fileID: 1413386013}
+--- !u!114 &1413386015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1413386008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb54be3846a1147aafba71eeb52b81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JumpKey: 119
+  Force: 200
+  CollisionLayers: []
+  RunScript: {fileID: 1413386014}
+--- !u!114 &1413386016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1413386008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1dabc00b18d2814482456dcc7c94bed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionLayers: []
 --- !u!1001 &1422490040
 Prefab:
   m_ObjectHideFlags: 0
