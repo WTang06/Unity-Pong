@@ -9,7 +9,7 @@ public class Run : MonoBehaviour
     public KeyCode RightKey;
     public float Force;
 
-    private Rigidbody2D thisRigidBody;
+    public Rigidbody2D thisRigidBody;
 
     void Awake()
     {
