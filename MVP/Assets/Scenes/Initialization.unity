@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneToLoad: StudioLogo
-  Delay: 0
+  Delay: 1
 --- !u!4 &13640872
 Transform:
   m_ObjectHideFlags: 0
