@@ -7,7 +7,7 @@
       <File FileName="Assets\Scripts\PlayAnimationOnKeyDown.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Run.cs" Line="1" Column="1" />
       <File FileName="Assets\AnimationController.cs" Line="18" Column="6" />
-      <File FileName="Assets\Scripts\Jump.cs" Line="24" Column="93" />
+      <File FileName="Assets\Scripts\Jump.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

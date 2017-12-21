@@ -15308,7 +15308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   JumpKey: 32
-  Force: 200
+  Force: 330
   CollisionLayers:
   - Ground
   RunScript: {fileID: 1413386014}
