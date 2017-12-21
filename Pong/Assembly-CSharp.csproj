@@ -64,6 +64,7 @@
      <Compile Include="Assets\Scripts\PlayAnimationOnKeyDown.cs" />
      <Compile Include="Assets\Scripts\PlayAudioOnCollision.cs" />
      <Compile Include="Assets\Scripts\PlayAudioOnKeyDown.cs" />
+     <Compile Include="Assets\Scripts\RestartOrQuit.cs" />
      <Compile Include="Assets\Scripts\SyncRoundUI.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

@@ -311,6 +311,7 @@ GameObject:
   - component: {fileID: 1078267087}
   - component: {fileID: 1078267086}
   - component: {fileID: 1078267085}
+  - component: {fileID: 1078267088}
   m_Layer: 5
   m_Name: PlayAgain
   m_TagString: Untagged
@@ -389,6 +390,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1078267083}
+--- !u!114 &1078267088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1078267083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b721118cc4adb264d92880490b5caa26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RestartKey: 121
+  QuitKey: 110
+  DataManager: {fileID: 0}
 --- !u!1 &2123461483
 GameObject:
   m_ObjectHideFlags: 0

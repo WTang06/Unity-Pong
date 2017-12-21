@@ -1,6 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+<<<<<<< HEAD
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\RestartOrQuit.cs">
+=======
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LoadScene.cs">
+>>>>>>> d92f374bb96deda8b46677af9ccda7d9efd8884c
     <Files>
       <File FileName="Assets\Scripts\DataManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\LoadScene.cs" Line="22" Column="1" />
@@ -14,6 +18,10 @@
       <File FileName="Assets\Scripts\IncrementScoreOnCollision.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\SyncRoundUI.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\DisplayMessage.cs" Line="1" Column="1" />
+<<<<<<< HEAD
+      <File FileName="Assets\Scripts\RestartOrQuit.cs" Line="16" Column="46" />
+=======
+>>>>>>> d92f374bb96deda8b46677af9ccda7d9efd8884c
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
