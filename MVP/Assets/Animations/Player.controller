@@ -63,7 +63,7 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102213111424660620}
-  m_Solo: 0
+  m_Solo: 1
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
@@ -87,7 +87,7 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102208486228456906}
-  m_Solo: 0
+  m_Solo: 1
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
@@ -111,7 +111,7 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102827276368297076}
-  m_Solo: 0
+  m_Solo: 1
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
@@ -135,7 +135,7 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102162743362879720}
-  m_Solo: 0
+  m_Solo: 1
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
@@ -159,7 +159,7 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102750827086623104}
-  m_Solo: 0
+  m_Solo: 1
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
@@ -247,7 +247,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Player_RunLeft
-  m_Speed: 1
+  m_Speed: 0
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []

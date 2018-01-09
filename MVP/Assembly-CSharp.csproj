@@ -51,12 +51,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AnimationController.cs" />
+     <Compile Include="Assets\Scripts\AnimationController.cs" />
      <Compile Include="Assets\Scripts\DontDestroy.cs" />
      <Compile Include="Assets\Scripts\Jump.cs" />
      <Compile Include="Assets\Scripts\LoadScene.cs" />
      <Compile Include="Assets\Scripts\LoadSceneOnKeyDown.cs" />
      <Compile Include="Assets\Scripts\PlayAnimationOnKeyDown.cs" />
+     <Compile Include="Assets\Scripts\Quit.cs" />
      <Compile Include="Assets\Scripts\Run.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
