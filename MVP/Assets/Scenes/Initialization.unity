@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d70d869ac7215144a872c1e0ba858675, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: StudioLogo
+  SceneToLoad: Play
   Delay: 1
 --- !u!4 &13640872
 Transform:
