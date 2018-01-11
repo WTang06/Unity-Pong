@@ -9,5 +9,8 @@ sceneSetups:
   isLoaded: 0
   isActive: 0
 - path: Assets/Scenes/Play.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/Gameover.unity
   isLoaded: 1
   isActive: 1
