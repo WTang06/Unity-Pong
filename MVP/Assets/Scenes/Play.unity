@@ -576,7 +576,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 51589495}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.7, y: -5.51, z: 0}
+  m_LocalPosition: {x: 6.7, y: -6.96, z: 0}
   m_LocalScale: {x: 0.97499996, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2092593274}
@@ -615,9 +615,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 51589495}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea8b9af79b65ab1419f4b02d5996e86c, type: 3}
+  m_Script: {fileID: 11500000, guid: 6f8f0debafcdc3545bd9631f9d555e67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneToLoad: Play
+  PostCollisionDelay: 0
+  ColliderTag: Player
 --- !u!1001 &78444578
 Prefab:
   m_ObjectHideFlags: 0
@@ -13884,7 +13887,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1290260342}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.356, y: -1.996, z: 0}
+  m_LocalPosition: {x: -5.726, y: -2.066, z: 0}
   m_LocalScale: {x: 0.93656, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1668368172}
@@ -14996,7 +14999,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1399381660}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.2, y: 0.68, z: 0}
+  m_LocalPosition: {x: -2.57, y: 0.61, z: 0}
   m_LocalScale: {x: -1.0343146, y: 1, z: 1}
   m_Children:
   - {fileID: 1164122928}
@@ -15169,7 +15172,7 @@ GameObject:
   - component: {fileID: 1413386015}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15223,8 +15226,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1413386008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.871, y: -2.984, z: 0}
-  m_LocalScale: {x: 0.79791886, y: 0.7824059, z: 1}
+  m_LocalPosition: {x: 5.8156, y: -3.0734, z: 0}
+  m_LocalScale: {x: 0.4900341, y: 0.4792655, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -15294,7 +15297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LeftKey: 97
   RightKey: 100
-  Force: 30
+  Force: 21
 --- !u!114 &1413386015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15320,7 +15323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   JumpKey: 119
-  Force: 200
+  Force: 240
   CollisionLayers:
   - Ground
   RunScript: {fileID: 1413386014}
